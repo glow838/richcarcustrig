@@ -1,0 +1,9 @@
+/* In your custom.css file or a <style> block */
+.my-background-container {
+  background-image: url('/src/images/logo.png');
+  background-size: contain; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  /* You may also want to add a height if the container's content doesn't define it */
+  min-height: 200px; /* Example height */
+  background-repeat: no-repeat;
+}
